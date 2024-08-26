@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+}
+
+.navbar-logo img {
+    height: 60px;
+}
+
+.navbar-spacer {
+    flex-grow: 1;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #007BFF;
+}
+
+.background-image {
+    background-image: url('images/web.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.course-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.course-categories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category {
+    width: 45%; /* Adjust width as needed */
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-logo img {
+    max-width: 100px; /* Adjust max-width of logo as needed */
+}
+
+.category-text {
+    flex: 1;
+    padding: 0 10px; /* Adjust padding as needed */
+}
+
+.category h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 28%;
+    margin-bottom: 20px;
+}
+
+.plan h2 {
+    margin-bottom: 10px;
+}
+
+.plan p {
+    margin-bottom: 5px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan li {
+    margin-bottom: 5px;
+}
+
+.plan button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background-color: #3e8e41;
+}
+
+.textaligncenter{
+    color: darkblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container h2,
+.container p{
+    color: darkblue;
+}
+
+.course-categories h2{
+    color: darkblue;
+}
+
+.container h1{
+    color: gold;
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-info, .footer-contact {
+    width: 30%;
+}
+
+.footer-info h3,
+.footer-contact h3,
+.footer-info li,
+.footer-contact p {
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.footer-info ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-info li, .footer-contact li {
+    margin-bottom: 10px;
+}
+
+.footer-info a, .footer-contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.footer-contact textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+
+.copyright{
+    background-color: black;
+}
+
+.copyright h3{
+    color: white;
+}
+
+.container-contact-us {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.contact-us {
+    margin-bottom: 20px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.contact-us label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.contact-us input[type="text"],
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+
+
+.contact-us {
+    margin-bottom: 20px; /* Add space between Contact Us and Info/Links sections */
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 80%;
+}
+
+.contact-us h2 {
+    text-align: center;
+    color: white;
+}
+
+.contact-us label {
+    display: block; /* Make labels appear on separate lines */
+    margin-bottom: 5px;
+}
+
+.contact-us input[type="text"],
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
